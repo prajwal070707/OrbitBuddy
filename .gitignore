@@ -1,0 +1,41 @@
+# =========================================================================
+# OrbitBuddy Root GitIgnore
+# =========================================================================
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+*.log
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# ---------- Java ----------
+*.class
+
+# ---------- Backend ----------
+backend/orbitbuddy-spring/target/
+backend/orbitbuddy-spring/out/
+backend/orbitbuddy-spring/build/
+backend/orbitbuddy-spring/bin/
+backend/orbitbuddy-spring/.gradle/
+
+# ---------- Frontend ----------
+frontend/orbitbuddy-ng/node_modules/
+frontend/orbitbuddy-ng/dist/
+frontend/orbitbuddy-ng/.angular/
+frontend/orbitbuddy-ng/coverage/
+frontend/orbitbuddy-ng/tmp/
+frontend/orbitbuddy-ng/.sass-cache/
+frontend/orbitbuddy-ng/connect.lock
+
+# ---------- Environment ----------
+.env
+.env.local
